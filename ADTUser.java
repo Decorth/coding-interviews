@@ -3,6 +3,7 @@ public class ADTUser {
         String [] strings = {"tree", "sofa", "cute", "mattress", "pen"};
         useStringBuilder(strings);
         useHashTable();
+        useArrayList();
     }
 
     private static void useStringBuilder(String [] strings){
@@ -23,5 +24,9 @@ public class ADTUser {
         System.out.println(Integer.toString(hs.get("three")));
         System.out.println(Integer.toString(hs.get("two")));
         System.out.println(Integer.toString(hs.get("one")));
+    }
+
+    private static void useArrayList(){
+        ArrayList<String> aList = new ArrayList<>();
     }
 }
